@@ -20,17 +20,17 @@ jQuery(document).ready(function($) {
                 data.push({name: "gtoken", value: token});
                 $.post('/request', $.param(data))
                     .then(function () {
+                        $("#request").trigger('reset');                        
                         $(".success").addClass('show');    
                         setTimeout(function(){
                             $(".success").removeClass('show');
                         }, 5000);
-                    }).catch(function(){
+                    }).catch(function () {
+                        $("#request").trigger('reset');                        
                         $(".failure").addClass('show');    
                         setTimeout(function(){
                             $(".failure").removeClass('show');
                         }, 5000);
-                    }).finally(function () { 
-                        $("#request").trigger('reset');                        
                     });
             });
         });       
