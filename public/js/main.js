@@ -12,22 +12,13 @@ jQuery(document).ready(function($) {
     $("#request").submit(function(e) {
         e.preventDefault();
         var $form = $(this);
-
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6LcJ_ncUAAAAAJs0TIkneGMbpgz43XH_Ij_sHM95', {action: 'request'})
-            .then(function(token) {
-                var data = $form.serializeArray();
-                data.push({name: "gtoken", value: token});
-                $.post('/request', $.param(data))
-                .then(function() {
-                  $("#request").hide();
-                  $("#request").trigger('reset');
-                }).catch(function(){
-                  $("#request").hide();
-                  $("#request").trigger('reset');
-                });                
-            });
-        });
+        $(".success").addClass('show');
+ 
+        
+setTimeout(function(){
+$(".success").removeClass('show');
+}, 5000);
+        
     }); 
 
     jQuery('.fancybox').fancybox({
@@ -75,7 +66,7 @@ jQuery(document).ready(function($) {
         });
 
     });
-    
+
     jQuery(window).scroll(function() {
         jQuery(this).scrollTop() > 50 ? jQuery(".fixed").addClass("fixx") : jQuery(".fixed").removeClass("fixx")
     }); 
