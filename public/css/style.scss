@@ -419,8 +419,15 @@ footer{
     }
 }
 
-
-
+.failure{  display: none;  background: #5c5c22;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    &.show{
+        display: block;
+    }
+}
 
 hr{
     height: .25rem;

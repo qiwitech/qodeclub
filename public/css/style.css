@@ -338,6 +338,16 @@ footer {
   .success.show {
     display: block; }
 
+.failure {
+  display: none;
+  background: #5c5c22;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px; }
+  .failure.show {
+    display: block; }
+
 hr {
   height: .25rem;
   width: 0;
@@ -377,12 +387,11 @@ hr {
       margin: 0 1%; }
     section.albom .block img {
       width: 100%; }
-
   section.block .pad .content .blocks .block .card .txt {
     font-size: 18px; }
-
   section.price .card {
     left: 440px; } }
+
 @media (min-width: 993px) and (max-width: 1200px) {
   header {
     padding: 0 30px;
@@ -395,11 +404,9 @@ hr {
       header .text .txt h1 {
         font-size: 50px;
         top: -45px; }
-
   section.block .pad .content .blocks .block:nth-child(2), section.block .pad .content .blocks .block:nth-child(5) {
     margin: 0;
     margin-bottom: 15px; }
-
   section.block {
     padding: 80px 0 80px 0; }
     section.block .pad {
@@ -409,13 +416,10 @@ hr {
         margin-right: 15px; }
         section.block .pad .content .blocks .block:nth-child(even) {
           margin-right: 0px; }
-
   section.block .pad .content .blocks .block:nth-child(5) {
     margin-right: 15px; }
-
   section.albom .block .fancybox {
     margin: 5px auto; }
-
   section.albom {
     height: auto;
     margin-bottom: 0px; }
@@ -428,7 +432,6 @@ hr {
         display: none; }
       section.albom .block.mobility {
         display: block; }
-
   section.price .img_object {
     width: 450px;
     height: 350px;
@@ -450,21 +453,19 @@ hr {
       font-size: 24px; }
     section.price .card .text {
       font-size: 15px; }
-
   .fixed {
     padding: 0 40px; }
-
   section.karta .col.bg .content {
     padding: 15px 40px;
     font-size: 16px; }
     section.karta .col.bg .content h3 {
       font-size: 30px; } }
+
 @media (min-width: 768px) and (max-width: 992px) {
   .navbar ul li {
     margin-left: 15px; }
     .navbar ul li a {
       font-size: 14px; }
-
   header {
     padding: 0 15px;
     padding-top: 200px; }
@@ -481,11 +482,9 @@ hr {
       header .btn a {
         font-size: 14px;
         padding: 15px 30px; }
-
   section.block .pad .content .blocks .block:nth-child(2), section.block .pad .content .blocks .block:nth-child(5) {
     margin: 0;
     margin-bottom: 15px; }
-
   section.block {
     padding: 80px 0 80px 0; }
     section.block .pad {
@@ -499,10 +498,8 @@ hr {
           margin-right: 0px; }
         section.block .pad .content .blocks .block .card .txt {
           font-size: 14px; }
-
   section.block .pad .content .blocks .block:nth-child(5) {
     margin-right: 15px; }
-
   section.albom {
     height: auto;
     margin-bottom: 0px; }
@@ -519,7 +516,6 @@ hr {
         display: none; }
       section.albom .block.mobility {
         display: block; }
-
   section.price .img_object {
     width: 500px;
     height: 400px;
@@ -543,23 +539,20 @@ hr {
       font-size: 15px; }
     section.price .card .price {
       margin: 15px 0 0 0; }
-
   .fixed {
     padding: 0 15px; }
-
   section.karta .col.bg .content {
     padding: 15px 40px;
     font-size: 15px; }
     section.karta .col.bg .content h3 {
       font-size: 24px; }
-
   section.form {
     padding: 10px 0 30px 0; }
-
   footer .pad {
     padding: 0 15px; }
   footer .col2 .adress {
     font-size: 14px; } }
+
 @media (max-width: 767px) {
   .fixed {
     padding: 0 20px; }
@@ -570,12 +563,10 @@ hr {
     .fixed.fixx {
       background: #363434;
       box-shadow: 0 0 10px #363434; }
-
   .navbar ul li {
     margin-left: 15px; }
     .navbar ul li a {
       font-size: 14px; }
-
   header {
     padding: 0 15px;
     padding-top: 200px;
@@ -623,10 +614,8 @@ hr {
         text-align: center;
         background: transparent;
         border: 2px solid white; }
-
   section.block .pad .content .blocks .block:nth-child(2), section.block .pad .content .blocks .block:nth-child(5) {
     margin: 0; }
-
   section.block {
     padding: 20px 0 20px 0;
     background: white;
@@ -652,10 +641,8 @@ hr {
           border-bottom: 0px solid #e0e9eb; }
         section.block .pad .content .blocks .block:hover {
           box-shadow: none; }
-
   section.block .pad .content .blocks .block:nth-child(5) {
     margin-right: 0; }
-
   section.albom {
     height: auto;
     background: #363434;
@@ -677,7 +664,6 @@ hr {
         display: none; }
       section.albom .block.mobility {
         display: block; }
-
   section.price {
     padding: 0px;
     margin-top: -70px; }
@@ -715,7 +701,6 @@ hr {
         font-size: 14px; }
       section.price .card .price {
         margin: 10px 0 0 0; }
-
   section.karta {
     padding: 40px 0 10px 0; }
     section.karta .pad {
@@ -733,7 +718,6 @@ hr {
         font-size: 15px; }
         section.karta .col.bg .content h3 {
           font-size: 24px; }
-
   section.form {
     padding: 20px 0 30px 0;
     padding: 10px 0 30px 0; }
@@ -748,7 +732,6 @@ hr {
       section.form .col button {
         width: 100%;
         text-transform: uppercase; }
-
   footer {
     padding: 30px 0; }
     footer .pad {
@@ -763,17 +746,14 @@ hr {
         text-align: left;
         float: left;
         margin: 0; }
-
   .mob_logo {
     display: block;
     float: left;
     padding: 15px 0; }
-
   .navBurger {
     display: block;
     float: right;
     margin: 12px 0px; }
-
   .navBurger {
     cursor: pointer;
     background: white;
@@ -818,7 +798,6 @@ hr {
       transform: rotate(-135deg);
       background: #eee;
       width: 110%; }
-
   .overlay {
     position: fixed;
     background: #363434;
@@ -861,7 +840,6 @@ hr {
       right: 15px; }
       .overlay .text_foot p {
         margin: 3px 0; }
-
   .overlayMenu {
     position: absolute;
     text-align: left;
@@ -888,10 +866,8 @@ hr {
           margin: 5px 0;
           transition: 0.2s;
           font-weight: 700; }
-
   .locked {
     overflow: hidden; }
-
   @keyframes fadeInRight {
     0% {
       opacity: 0;
@@ -900,8 +876,7 @@ hr {
       opacity: 1;
       left: 0;
       transform: rotate(0deg); } } }
+
 @media (max-height: 320px) {
   .text_foot {
     display: none; } }
-
-/*# sourceMappingURL=style.css.map */

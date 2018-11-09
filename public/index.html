@@ -266,10 +266,13 @@
                 <div class="pad">
                     <h3>Оставить заявку</h3>
                     <div class="col" id="application-form">
-                       <div class="success">
-                           Заявка оптравлена. Мы скоро свяжемся с вами для уточнения деталей. 
-                       </div>
-                        <form action method="post" id="request">
+                        <div class="success">
+                            Заявка оптравлена. Мы скоро свяжемся с вами для уточнения деталей. 
+                        </div>
+                        <div class="failure">
+                            Произошла ошибка при отправке заявки. Попробуйте повторить позднее.
+                        </div>
+                     <form action method="post" id="request">
                             <input type="text" name="name" class="names wow fadeInRight" data-wow-offset="0"  data-wow-delay="0s" data-wow-duration="1s"  placeholder="Имя">
                             <input type="text" name="email" class="mail  wow fadeInRight" data-wow-offset="0"  data-wow-delay="0.5s" data-wow-duration="1s" placeholder="Email">
                             <input type="text" name="company" class="company  wow fadeInRight" data-wow-offset="0"  data-wow-delay="1s" data-wow-duration="1s" placeholder="Компания">
